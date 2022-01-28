@@ -11,6 +11,13 @@
 		B30A300527A2D3F100882039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A300427A2D3F100882039 /* ContentView.swift */; };
 		B30A300727A2D3F200882039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A300627A2D3F200882039 /* Assets.xcassets */; };
 		B30A300A27A2D3F200882039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A300927A2D3F200882039 /* Preview Assets.xcassets */; };
+		B35C104F27A42D840015E4B0 /* PacotesViagensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C104E27A42D840015E4B0 /* PacotesViagensView.swift */; };
+		B35C105127A42FD80015E4B0 /* pacotes-viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = B35C105027A42FD80015E4B0 /* pacotes-viagens.json */; };
+		B35C105427A430230015E4B0 /* PacoteDeViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C105327A430230015E4B0 /* PacoteDeViagem.swift */; };
+		B35C105627A437980015E4B0 /* SecaoPacotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C105527A437980015E4B0 /* SecaoPacotesView.swift */; };
+		B36A268C27A45F5A00C4CF5D /* ListaDePacotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36A268B27A45F5A00C4CF5D /* ListaDePacotesView.swift */; };
+		B36A269127A468DC00C4CF5D /* DestaquesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36A269027A468DC00C4CF5D /* DestaquesView.swift */; };
+		B36A269427A46CCE00C4CF5D /* DetalhesViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36A269327A46CCE00C4CF5D /* DetalhesViagemView.swift */; };
 		B37F4DDA27A3250A009B234E /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F4DD727A3250A009B234E /* Dados.swift */; };
 		B37F4DDB27A3250A009B234E /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F4DD827A3250A009B234E /* Viagem.swift */; };
 		B37F4DDC27A3250A009B234E /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = B37F4DD927A3250A009B234E /* viagens.json */; };
@@ -25,6 +32,13 @@
 		B30A300427A2D3F100882039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B30A300627A2D3F200882039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30A300927A2D3F200882039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B35C104E27A42D840015E4B0 /* PacotesViagensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensView.swift; sourceTree = "<group>"; };
+		B35C105027A42FD80015E4B0 /* pacotes-viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pacotes-viagens.json"; sourceTree = "<group>"; };
+		B35C105327A430230015E4B0 /* PacoteDeViagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacoteDeViagem.swift; sourceTree = "<group>"; };
+		B35C105527A437980015E4B0 /* SecaoPacotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecaoPacotesView.swift; sourceTree = "<group>"; };
+		B36A268B27A45F5A00C4CF5D /* ListaDePacotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDePacotesView.swift; sourceTree = "<group>"; };
+		B36A269027A468DC00C4CF5D /* DestaquesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestaquesView.swift; sourceTree = "<group>"; };
+		B36A269327A46CCE00C4CF5D /* DetalhesViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagemView.swift; sourceTree = "<group>"; };
 		B37F4DD727A3250A009B234E /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		B37F4DD827A3250A009B234E /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		B37F4DD927A3250A009B234E /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
@@ -65,7 +79,7 @@
 			children = (
 				B37F4DD627A3250A009B234E /* Models */,
 				B37F4DDD27A33797009B234E /* Views */,
-				B37F4DD927A3250A009B234E /* viagens.json */,
+				B35C105227A430010015E4B0 /* Mocks */,
 				B30A300227A2D3F100882039 /* alura_viagensApp.swift */,
 				B30A300627A2D3F200882039 /* Assets.xcassets */,
 				B30A300827A2D3F200882039 /* Preview Content */,
@@ -81,11 +95,50 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B35C105227A430010015E4B0 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B35C105027A42FD80015E4B0 /* pacotes-viagens.json */,
+				B37F4DD927A3250A009B234E /* viagens.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B36A268D27A4686900C4CF5D /* Destaques */ = {
+			isa = PBXGroup;
+			children = (
+				B36A269027A468DC00C4CF5D /* DestaquesView.swift */,
+				B37F4DE027A337CD009B234E /* HeaderView.swift */,
+				B37F4DE227A33A5A009B234E /* CelulaViagemView.swift */,
+				B37F4DE427A35848009B234E /* MapaView.swift */,
+			);
+			path = Destaques;
+			sourceTree = "<group>";
+		};
+		B36A268E27A4688700C4CF5D /* Pacotess */ = {
+			isa = PBXGroup;
+			children = (
+				B35C105527A437980015E4B0 /* SecaoPacotesView.swift */,
+				B35C104E27A42D840015E4B0 /* PacotesViagensView.swift */,
+				B36A268B27A45F5A00C4CF5D /* ListaDePacotesView.swift */,
+			);
+			path = Pacotess;
+			sourceTree = "<group>";
+		};
+		B36A269227A46C8F00C4CF5D /* Detalhes */ = {
+			isa = PBXGroup;
+			children = (
+				B36A269327A46CCE00C4CF5D /* DetalhesViagemView.swift */,
+			);
+			path = Detalhes;
+			sourceTree = "<group>";
+		};
 		B37F4DD627A3250A009B234E /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B37F4DD727A3250A009B234E /* Dados.swift */,
 				B37F4DD827A3250A009B234E /* Viagem.swift */,
+				B35C105327A430230015E4B0 /* PacoteDeViagem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,10 +146,10 @@
 		B37F4DDD27A33797009B234E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B37F4DE027A337CD009B234E /* HeaderView.swift */,
-				B37F4DE227A33A5A009B234E /* CelulaViagemView.swift */,
 				B30A300427A2D3F100882039 /* ContentView.swift */,
-				B37F4DE427A35848009B234E /* MapaView.swift */,
+				B36A268D27A4686900C4CF5D /* Destaques */,
+				B36A268E27A4688700C4CF5D /* Pacotess */,
+				B36A269227A46C8F00C4CF5D /* Detalhes */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30A300A27A2D3F200882039 /* Preview Assets.xcassets in Resources */,
+				B35C105127A42FD80015E4B0 /* pacotes-viagens.json in Resources */,
 				B30A300727A2D3F200882039 /* Assets.xcassets in Resources */,
 				B37F4DDC27A3250A009B234E /* viagens.json in Resources */,
 			);
@@ -172,11 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35C105627A437980015E4B0 /* SecaoPacotesView.swift in Sources */,
 				B37F4DE127A337CD009B234E /* HeaderView.swift in Sources */,
 				B37F4DE527A35849009B234E /* MapaView.swift in Sources */,
+				B36A269427A46CCE00C4CF5D /* DetalhesViagemView.swift in Sources */,
+				B35C104F27A42D840015E4B0 /* PacotesViagensView.swift in Sources */,
+				B36A269127A468DC00C4CF5D /* DestaquesView.swift in Sources */,
 				B37F4DDB27A3250A009B234E /* Viagem.swift in Sources */,
 				B30A300527A2D3F100882039 /* ContentView.swift in Sources */,
 				B37F4DDA27A3250A009B234E /* Dados.swift in Sources */,
+				B36A268C27A45F5A00C4CF5D /* ListaDePacotesView.swift in Sources */,
+				B35C105427A430230015E4B0 /* PacoteDeViagem.swift in Sources */,
 				B30A300327A2D3F100882039 /* alura_viagensApp.swift in Sources */,
 				B37F4DE327A33A5A009B234E /* CelulaViagemView.swift in Sources */,
 			);

@@ -1,9 +1,8 @@
 //
 //  Viagem.swift
-//  new-alura-viagens
+//  alura-viagens
 //
-//  Created by Ândriu Felipe Coelho on 23/01/20.
-//  Copyright © 2020 Ândriu Felipe Coelho. All rights reserved.
+//  Created by Mac M1 on 28/01/22.
 //
 
 import Foundation
